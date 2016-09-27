@@ -13,7 +13,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ChinookSystem.Data.Enitities
 {
     [Table("Albums")]
-    class Album
+    public class Album
     {
         [Key]
         public int AlbumId { get; set; }
